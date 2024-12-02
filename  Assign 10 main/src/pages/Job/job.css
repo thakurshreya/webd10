@@ -1,0 +1,81 @@
+.scrollable-container {
+  height: 1000px; /* Adjust the height as needed */
+  overflow-y: auto; /* Enables vertical scrolling */
+  border: 1px solid #ccc; /* Optional: adds a border */
+  padding: 10px;
+  margin-top: 1000px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #dadcec;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.jobs_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  grid-gap: 2rem;
+}
+
+/* Jobs.css */
+.jobsContainer {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  color: #0275d8;
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Adjust navbar styles if necessary, particularly if they conflict with the Jobs page styles */
+.navbar_container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f8;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar_element {
+  color: #0275d8;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.navbar_element:hover {
+  background-color: #e7e7e7;
+}

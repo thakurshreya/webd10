@@ -1,0 +1,19 @@
+.gallery-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .company-image {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    border-radius: 8px; /* Optional: for styled corners */
+  }
+  
